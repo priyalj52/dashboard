@@ -17,7 +17,7 @@ const TableData = ({ name, userName, email, id, website }) => {
           href={`https://${website}`}
           className="cursor-pointer mr-5"
         >
-          {console.log(`https://${website}`)}
+          {/* {console.log(`https://${website}`)} */}
           <BsInstagram />
         </a>
         <span>{email}</span>
